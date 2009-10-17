@@ -20,7 +20,7 @@
 		</control>
 		<control type="group">
 			<posx>583</posx>
-			<posy>115</posy>
+			<posy>150</posy>
 			<include>Animation_ZoomedByMenu</include>
 			<include>Animation_CommonFade</include>
 			<control type="label">

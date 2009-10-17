@@ -994,7 +994,7 @@
 	<include name="Object_MovieInfoLines">
 		<control type="image">
 			<posx>0</posx>
-			<posy>161</posy>
+			<posy>196</posy>
 			<width>1280</width>
 			<height>226</height>
 			<texture>movieinfolines.png</texture>
