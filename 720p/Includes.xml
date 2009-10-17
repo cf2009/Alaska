@@ -176,6 +176,18 @@
 				<visible>Window.IsActive(25) + Container.Content(movies)</visible>
 			</control>
 			<control type="label">
+				<description>Name of Plugin</description>
+				<label>$INFO[Container.PluginName]</label>
+				<include>Global_HeadingSectionVars</include>
+				<visible>!IsEmpty(Container.PluginName)</visible>
+			</control>
+			<control type="label">
+				<description>Plugins</description>
+<!-- LOC -->	<label>Plugins</label>
+				<include>Global_HeadingSectionVars</include>
+				<visible>IsEmpty(Container.PluginName) + Container.Content(plugins)</visible>
+			</control>
+			<control type="label">
 				<description>Pictures</description>
 				<label>1</label>
 				<include>Global_HeadingSectionVars</include>
@@ -227,7 +239,7 @@
 				<description>Video</description>
 				<label>3</label>
 				<include>Global_HeadingSectionVars</include>
-				<visible>Window.IsActive(24)</visible>
+				<visible>[Window.IsActive(24)| [Window.IsActive(25) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(movies)]] + IsEmpty(Container.PluginName)</visible>
 			</control>
 			<control type="label">
 				<label>$INFO[Container.NumItems] ITEMS</label>
