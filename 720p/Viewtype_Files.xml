@@ -156,25 +156,6 @@
 					<include>Animation_ZoomInZoomOut</include>
 					<include>Animation_ZoomedByMenu</include>
 					<include>Animation_HiddenByMusicInfo</include>
-					<visible>!Container.Content(Genres)</visible>
-					<animation type="Focus" reversible="false">
-						<effect type="zoom" center="670,75" start="50" end="100" time="200" tween="cubic" easing="out" />
-						<effect type="fade" start="60" end="100" time="200" />
-					</animation>
-				</control>
-				<control type="image">
-					<posx>230</posx>
-					<posy>-118</posy>
-					<width>440</width>
-					<height>360</height>
-					<aspectratio align="right" aligny="center">keep</aspectratio>
-					<texture fallback="moviegenres\default.jpg">moviegenres\$INFO[ListItem.Label].jpg</texture>
-					<bordertexture border="8">common\thumb_border.png</bordertexture>
-					<bordersize>8</bordersize>
-					<include>Animation_ZoomInZoomOut</include>
-					<include>Animation_ZoomedByMenu</include>
-					<include>Animation_HiddenByMusicInfo</include>
-					<visible>Container.Content(Genres)</visible>
 					<animation type="Focus" reversible="false">
 						<effect type="zoom" center="670,75" start="50" end="100" time="200" tween="cubic" easing="out" />
 						<effect type="fade" start="60" end="100" time="200" />
