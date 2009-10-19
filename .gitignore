@@ -3,9 +3,13 @@
 # generated files 
 *.bak
 *.db
+*.rar
 
 #SourceMonitor
 *.smp
 
 #ImageSource
 *.psd
+
+#Folders
+*extras

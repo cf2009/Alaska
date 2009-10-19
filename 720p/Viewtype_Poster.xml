@@ -237,7 +237,6 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>300</height>
-					<fadetime>200</fadetime>
 					<texture>$INFO[ListItem.Icon]</texture>
 					<aspectratio>scale</aspectratio>
 					<bordertexture border="8">common/thumb_border.png</bordertexture>
